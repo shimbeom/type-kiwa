@@ -1,5 +1,6 @@
 html,
 body {
+  font-size: 20px;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -31,11 +32,6 @@ body {
   color: #333; /* Darker text color for better contrast */
   line-height: 1.5;
   font-size: 20px;
-}
-
-/* Ensuring the cursor is always visible */
-#typingCanvas:focus {
-  outline: none; /* Removes the outline to keep the interface clean */
 }
 
 @font-face {
