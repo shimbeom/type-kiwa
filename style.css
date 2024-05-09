@@ -27,7 +27,7 @@ body {
   margin: 0;
   padding: var(--padding); /* Adds some padding for better text positioning */
   resize: none;
-  font-family: "KiwaSerifKerned", serif;
+  font-family: "Kiwa Serif Kerned", serif;
   color: #333; /* Darker text color for better contrast */
   line-height: 1.5;
   font-size: 20px;
@@ -39,6 +39,6 @@ body {
 }
 
 @font-face {
-  font-family: "KiwaSerifKerned"; /* 원하는 폰트 이름 지정 */
-  src: url("./fonts/Kiwa Serif.otf"); /* 폰트 파일의 경로 지정 */
+  font-family: "Kiwa Serif Kerned"; /* 원하는 폰트 이름 지정 */
+  src: url("./fonts/Kiwa.otf"); /* 폰트 파일의 경로 지정 */
 }
