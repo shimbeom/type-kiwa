@@ -1,16 +1,3 @@
-
-@media only screen and (min-width: 768px) {
-  #typingCanvas {
-    font-size: 20px; /* 데스크톱 화면에서 폰트 크기를 16px로 설정 */
-  }
-}
-
-/* 모바일 화면에 대한 스타일 */
-@media only screen and (max-width: 767px) {
-  #typingCanvas {
-    font-size: 36px; /* 모바일 화면에서 폰트 크기를 14px로 설정 */
-  }
-}
 html,
 body {
   height: 100%;
@@ -41,8 +28,14 @@ body {
   padding: var(--padding); /* Adds some padding for better text positioning */
   resize: none;
   font-family: "Kiwa Serif Kerned", serif;
+  font-size: 20px;
   color: #333; /* Darker text color for better contrast */
   line-height: 1.5;
+}
+
+/* Ensuring the cursor is always visible */
+#typingCanvas:focus {
+  outline: none; /* Removes the outline to keep the interface clean */
 }
 
 @font-face {
